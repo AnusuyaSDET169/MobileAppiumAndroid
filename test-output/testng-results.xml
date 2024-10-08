@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-04T11:58:36 CDT" name="Default suite" finished-at="2024-10-04T11:58:50 CDT" duration-ms="13632">
+    <groups>
+    </groups>
+    <test started-at="2024-10-04T11:58:36 CDT" name="Default test" finished-at="2024-10-04T11:58:50 CDT" duration-ms="13632">
+      <class name="Runners.longpress">
+        <test-method is-config="true" signature="setConfig()[pri:0, instance:Runners.longpress@2eae8e6e]" started-at="2024-10-04T11:58:36 CDT" name="setConfig" finished-at="2024-10-04T11:58:43 CDT" duration-ms="7125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConfig -->
+        <test-method signature="LongPressGesture()[pri:0, instance:Runners.longpress@2eae8e6e]" started-at="2024-10-04T11:58:43 CDT" name="LongPressGesture" finished-at="2024-10-04T11:58:50 CDT" duration-ms="6429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LongPressGesture -->
+      </class> <!-- Runners.longpress -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

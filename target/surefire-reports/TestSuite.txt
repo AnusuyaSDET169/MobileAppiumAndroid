@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 1.499 s <<< FAILURE! - in TestSuite
+setConfig(Runners.longpress)  Time elapsed: 1.262 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'Anusuyas-MBP.lan', ip: '2603:8080:c8f0:20f0:7cfe:27fa:d75b:98da%en0'
+Caused by: org.openqa.selenium.WebDriverException: 
+java.lang.NoSuchMethodException: org.openqa.selenium.remote.ProtocolHandshake.createSession(org.openqa.selenium.remote.http.HttpHandler,java.util.function.Supplier,long)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.4', java.version: '17.0.10'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.NoSuchMethodException: org.openqa.selenium.remote.ProtocolHandshake.createSession(org.openqa.selenium.remote.http.HttpHandler,java.util.function.Supplier,long)
+

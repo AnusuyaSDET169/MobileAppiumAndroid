@@ -20,10 +20,11 @@
 </build>
   <dependencies>
 	<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+<!-- https://mvnrepository.com/artifact/io.appium/java-client -->
 <dependency>
     <groupId>io.appium</groupId>
     <artifactId>java-client</artifactId>
-    <version>9.1.0</version>
+    <version>9.3.0</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -40,6 +41,7 @@
     <artifactId>selenium-java</artifactId>
     <version>4.24.0</version>
 </dependency>
+
 
   </dependencies>
 </project>
